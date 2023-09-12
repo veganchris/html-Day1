@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+</head>
+
+<body leftmargin="100">
+    <h1><b>Registration Form</b></h1>
+    <form action="">
+        <div>
+            <label for="fname">Firstname</label>
+            <input type="text" id="fname" name="firstname" placeholder="John">
+            <br>
+            <br>
+            <label for="lname">Lastname</label>
+            <input type="text" id="lname" name="lastname" placeholder="Doe">
+        </div>
+        <br>
+
+        <div>
+            <label>for="course">Course : </label>
+            <select name="course" id="course">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="Javascript">Javascript</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <span>Gender :</span><br>
+            <input type="radio" name="gender" value="Male" checked><br>
+            <input type="radio" name="gender" value="Female">
+        </div>
+        <div>
+            <br>
+            <span>Hobbies : </span><br>
+            <span>
+                <input type="checkbox" id="programming" value="Programming" checked>
+                <label for="programming">Programming</label>
+            </span>
+            <br>
+            <span>
+                <input type="checkbox" id="basketball" value="Basketball" checked>
+                <label for="Basketball">Basketball</label>
+            </span><br>
+            <span>
+                <input type="checkbox" id="football" value="Football">
+                <label for="football">Football</label>
+            </span><br>
+            <span>
+                <input type="checkbox" id="reading" value="Reading Novel">
+                <label for="reading">Reading Novel</label>
+            </span><br><br>
+            <div>
+                <label for="phone">Phone :</label>
+                <input type="text" id="phone" placeholder="004312345678912">
+            </div><br>
+            <div>
+                <label for="address">Address :</label><br>
+                <textarea id="address" name="address" rows="4" cols="50"> Schützenstraße 30, 6323, Vienna, Austria
+                </textarea>
+            </div><br>
+            <div>
+                <label for="email">Email :</label>
+                <input type="text" id="email" name="email" placeholder="johndoe@example.com">
+            </div><br>
+            <div>
+                <label for="password">Password :</label>
+                <input type="password" id="email" name="password" minlength="8" required placeholder="********">
+            </div><br><br>
+            <div><input type="submit" value="Submit" />
+                <input type="reset" value="Reset" />
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
